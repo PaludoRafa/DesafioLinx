@@ -7,32 +7,117 @@
 }
 
 /* Estilos header */
+header{
+    width: 63%;
+    margin: 0 auto;
+}
 #titulo{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    align-content: center;
     align-items: center;
     margin: 60px auto;
 }
 
-nav{
-    width: 70%;
-    margin: 20px auto;
-}
+
 nav ul{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 nav ul li{
     list-style: none;
+    border: 1px solid red;
+    min-width: 130px;
+    display: flex;
+
 }
 
 nav ul li a{
     width: 100%;
-    padding: 12px;
+    padding: 5px;
+    justify-content: center;
 }
 
+
 /* Estilo section formulario */
+
+#section-formulario{
+    display: flex;
+    flex-flow: row wrap;
+    width: 63%; 
+    margin: 0 auto;
+}
+
+#texto-formulario{
+    width: 50%;
+}
+
+/* Estilos Section Produtos */
+
+#section-produtos{
+    width: 63%; 
+    margin: 0 auto;
+}
+
+#titulo-produtos{
+    text-align: center;
+    margin: 40px;
+}
+
+#conteiner-produtos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.item-produtos{
+    width: 25%;
+}
+.foto-produto{
+    width: 200px;
+    height: 150px;
+    background-color: #cdcdcd;
+}
+#btn-mais-produtos{
+    text-align: center;
+    margin: 40px;
+}
+
+/* Estilos Section compartilhar */
+
+#section-compartilhe{
+    width: 63%; 
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+#titulo-compartilhe{
+    text-align: center;
+    margin: 40px;
+}
+
+footer{
+    width: 63%; 
+    margin: 86px auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+}
+
+@media(max-width: 420px){
+    #titulo{
+        align-items: flex-start;
+    }
+    nav ul{
+        display: flex;
+        flex-wrap: row nowrap;
+        align-items: center;
+    }
+    nav ul li{
+        min-width: 120px;
+    }
+}
