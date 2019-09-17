@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Estilos header */
+#titulo{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 60px auto;
+}
+
+nav{
+    width: 70%;
+    margin: 20px auto;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    width: 100%;
+    padding: 12px;
+}
+
+/* Estilo section formulario */
