@@ -7,146 +7,161 @@
     <link rel="stylesheet" href="style.css">
     <title></title>
 </head>
-<body>
-    <header>
-        <div id="titulo">
-            <h2>uma seleção de produtos</h2>
-            <h1>especial para você</h1>
-            <h3>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</h3>
-        </div>  
-
-        <nav>
-                <a href="#" class="btn">Conheça a Linx</a>
-                <a href="#" class="btn">Ajude o algoritmo</a>
-                <a href="#" class="btn">Seus produtos</a>
-                <a href="#" class="btn">Compartilhe</a>
-        </nav>
-    </header>  
-
-    <section id="section-formulario"> 
-         <div id="texto-formulario">
-            <h2>Ajude o algoritmo a ser mais certeiro</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem eveniet veniam repellendus voluptate in inventore, at vero nisi assumenda labore, ullam sapiente velit, ad omnis veritatis fugit expedita nulla!
-            </p>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem eveniet veniam repellendus voluptate in inventore, at vero nisi assumenda labore, ullam sapiente velit, ad omnis veritatis fugit expedita nulla!
-            </p>
-         </div>
-
-         <div id="formulario">
-             <form action="#">
-
-                <div>
-                <label for="nome">Seu nome:</label> <br>
-                <input type="text" name="nome" id="nome"> 
+<body>  
+        <header>
+                <div id="titulo">
+                    <h2 class="center">uma seleção de produtos</h2>
+                    <h1 class="center">especial para você</h1>
+                    <p class="center"> 
+                        Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!
+                    </p>
                 </div>  
+
+                <nav>
+                    <ul>
+                        <li class="margin"><a href="#" class="btn" >Conheça a Linx</a></li>
+                        <li><a href="#" class="btn" >Ajude o algoritmo</a></li>
+                        <li class="margin"><a href="#" class="btn" >Seus produtos</a></li>
+                        <li><a href="#" class="btn" >Compartilhe</a></li>
+                    </ul>          
+                </nav>     
                 
-                <div>
-                <label>E-mail:</label> <br>
-                <input type="email" name="email">
-                </div>
+        </header>  
 
-                <div>
-                <label>CPF:</label> <br>
-                <input type="text" name="nome">
-                </div>
-
-                <div>
-                <input type="radio" name="genero" value="masculino" id="masculino"> 
-                <label for="masculino">Masculino</label>
+        <section id="section-formulario"> 
+            <div id="texto-formulario">
+                <h2>Ajude o algoritmo a ser mais certeiro</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem eveniet veniam repellendus voluptate in inventore, at vero nisi assumenda labore, ullam sapiente velit, ad omnis veritatis fugit expedita nulla!
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem eveniet veniam repellendus voluptate in inventore, at vero nisi assumenda labore, ullam sapiente velit, ad omnis veritatis fugit expedita nulla!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem eveniet veniam repellendus voluptate in i
+                </p>
                 
-                <input type="radio" name="genero" value="feminino" id="feminino"> 
-                <label for="feminino">Feminino</label>
-                </div>
-
-                <input type="submit" value="enviar  ">
-             </form>
-         </div>       
-    </section>
-
-    <section id="section-produtos">
-        <div id="titulo-produtos">
-            <h2>Sua seleção especial</h2>
-        </div> 
-
-        <div id="conteiner-produtos"> 
-            <div class="item-produtos">
-                <div class="foto-produto"></div>
-                <div class="descricao-produto">
-                    <h4>nome produto</h4>
-                    <p>Descrição produto um pouco maior, com duas linhas ou três que  explica melhor do que se trata</p>
-                    <p>De: R$23,90</p>           
-                    <p>ou 2x de R$9,99</p>
-                    <button>Comprar </button>
-               </div>  
             </div>
 
-            <div class="item-produtos">
-                <div class="foto-produto"></div>
-                <div class="descricao-produto">
-                    <h4>nome produto</h4>
-                    <p>Descrição produto um pouco maior, com duas linhas ou três que  explica melhor do que se trata</p>
-                    <p>De: R$23,90</p>           
-                    <p>ou 2x de R$9,99</p>
-                    <button>Comprar </button>
-                </div>  
-            </div>
+            <div id="formulario">
+                <form action="#">
 
-            <div class="item-produtos">
-                <div class="foto-produto"></div>
-                <div class="descricao-produto">
-                    <h4>nome produto</h4>
-                    <p>Descrição produto um pouco maior, com duas linhas ou três que  explica melhor do que se trata</p>
-                    <p>De: R$23,90</p>           
-                    <p>ou 2x de R$9,99</p>
-                    <button>Comprar </button>
-                </div>  
-            </div>
+                    <div>
+                        <p>Seu nome:</p>
+                        <input type="text" name="nome" id="nome"> 
+                    </div>  
+                    
+                    <div>
+                        <p>E-mail:</p>
+                        <input type="email" name="email">
+                    </div>
 
-            <div class="item-produtos">
+                    <div>
+                        <p>CPF:</p>
+                        <input type="text" name="nome">
+                    </div>
+
+                    <div>
+                        <input type="radio" name="genero" value="masculino" id="masculino"> 
+                        <label for="masculino">Masculino</label>
+                        
+                        <input type="radio" name="genero" value="feminino" id="feminino"> 
+                        <label for="feminino">Feminino</label>
+                    </div>
+
+                    <a href="#" class="btn">Enviar</a>
+                </form>
+            </div>       
+        </section>
+
+        <section id="section-produtos">
+            <div id="titulo-produtos">
+                <h2 class="titulos-secundario">Sua seleção especial</h2>
+            </div> 
+
+            <div id="container-produtos">     
+                <div class="item-produtos">
                     <div class="foto-produto"></div>
                     <div class="descricao-produto">
-                        <h4>nome produto</h4>
+                        <p class="nome-produto">Nome produto</p>
                         <p>Descrição produto um pouco maior, com duas linhas ou três que  explica melhor do que se trata</p>
-                        <p>De: R$23,90</p>           
+                        <p>De: R$23,90</p>     
+                        <p class="bold">Por: R$19,99</p>      
                         <p>ou 2x de R$9,99</p>
-                        <button>Comprar </button>
+                        <a href="#" class="btn">Comprar</a>
                     </div>  
+                </div>
+
+                <div class="item-produtos">
+                    <div class="foto-produto"></div>
+                    <div class="descricao-produto">
+                        <p class="nome-produto">Nome produto</p>
+                        <p>Descrição produto um pouco maior, com duas linhas ou três que  explica melhor do que se trata</p>
+                        <p>De: R$23,90</p>     
+                        <p class="bold">Por: R$19,99</p>        
+                        <p>ou 2x de R$9,99</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>  
+                </div>
+
+                <div class="item-produtos">
+                    <div class="foto-produto"></div>
+                    <div class="descricao-produto">
+                        <p class="nome-produto">Nome produto</p>
+                        <p>Descrição produto um pouco maior, com duas linhas ou três que  explica melhor do que se trata</p>
+                        <p>De: R$23,90</p>    
+                        <p class="bold">Por: R$19,99</p>         
+                        <p>ou 2x de R$9,99</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>  
+                </div>
+
+                <div class="item-produtos">
+                    <div class="foto-produto"></div>
+                    <div class="descricao-produto">
+                        <p class="nome-produto">Nome produto</p>
+                        <p>Descrição produto um pouco maior, com duas linhas ou três que  explica melhor do que se trata</p> 
+                        <p>De: R$23,90</p>    
+                        <p class="bold">Por: R$19,99</p>         
+                        <p>ou 2x de R$9,99</p>
+                        <a href="#" class="btn">Comprar</a>
+                        </div>  
+                </div>    
             </div>
-        <div id="btn-mais-produtos">
-            <button>Ainda mais produtos aqui!</button>
-        </div>
-    </section>
 
-     <section id="section-compartilhe">
-            <div id="titulo-compartilhe">
-                <h2>Compartilhe a novidade</h2>
+            <div class="btn-central">
+                <a href="#" class="btn">Ainda mais produtos aqui!</a>
             </div>
 
-            <div>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</div>
+        </section>
 
-            <form action="#">
+        <section id="section-amigo">
+                
+            <h2 class="titulos-secundario">Compartilhe a novidade</h2>
+
+            <p class="center ">Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
+
+            <form action="#" id="formulario-amigo">
                 <div>
                     <p>Nome do seu amigo:</p>
                     <input type="text" name="nome-amigo">
                 </div>  
+
                 <div>
-                    <p>E-mail:</p>
-                    <input type="email" name="email">
+                    <p>E-mail dele:</p>
+                    <input type="email" name="email-amigo">
                 </div>
             </form>
 
-            <input type="submit" value="Enviar agora">
+            <div class="btn-central">
+                <a href="#" class="btn">Enviar Agora</a>
+            </div>
 
-     </section>
+        </section>
 
-    <footer>
-        <p>Testando suas habilidades em HTML, CSS e JS</p>
-        <p>Linx Impulse</p>
-        <p>2019</p>
-    </footer>
-
+        <footer>
+                <p>Testando suas habilidades em HTML, CSS e JS</p>
+                <p>Linx Impulse</p>
+                <p>2019</p>
+        </footer> 
+        <script src="app.js"></script>
 </body>
 </html>
