@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888888;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+/* Container pedrão 600px largura centralizado*/
+#container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilo para o cabeçalho */
+
+#header{
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 50px; 
+    background: #888888;
+}
+
+#conteiner-titulos{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#header h1,
+#header h2,
+#header h3{
+    color: #FFFFFF;
+}
+
+h1{
+    font-size: 2.857rem; 
+    margin: 7px 0;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 1.714rem;
+}
+
+
+/* Estilo para o conteúdo principal, dividido em título/apresentação; produtos; botão final */
+#texto-apresentacao{
+    margin: 0 18px;
+}
+
+#produtos{
+    width: 74%;
+    margin: 17px auto 57px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+#botao-comprar{
+    width: 63.84%;
+    margin: 0 auto;
+}
+
+.produto{
+    display: inline-block;
+    width: 200px;
+}
+
+.foto-produto{
+    width: 200px;
+    height: 150px;
+    border: 1px solid #888888;
+}
+
+/* Estilo do rodapé */
+#rodape{
+    margin-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 19px; 
+    background: #888888;
+}
+
+#rodape p{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* ESTILO GENÉRICO */
+a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem;
+    line-height: 1.2em;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #888888;
+    border: 1px solid #888888;
+}
+
+.bold{
+    font-weight: 900;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+p{
+    margin: 0.7rem 0;
+}

@@ -8,17 +8,24 @@
     color: #888888;
     font-weight: 100;
 }
-header, footer, section{
+#container-top,
+#container-bot,
+ section{
     width: 62%;
     margin: 0 auto;
 }
 
 /* HEADER */
 header{
-    padding-top: 90px; 
-    padding-bottom: 130px; 
     background: #888888;
+    position: relative;
+    margin-bottom: 130px;  
 }
+
+#container-top{
+    padding-top: 90px;   
+}
+
 
 
 #titulo h2,
@@ -108,7 +115,9 @@ footer{
     margin-top: 70px;
     padding-bottom: 82px;
     background: #888888;
+    position: relative;
 }
+
 
 
 /* ESTILOS GENÉRICOS  */
